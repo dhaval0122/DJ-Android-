@@ -58,7 +58,29 @@ public class GMapV2Direction {
 		Log.i("DurationText", node2.getTextContent());
 		return node2.getTextContent();
 	}
+	public List<HashMap<String, String>> getDirectionDistanceAndHtmlInstruction(Document doc) {
+		NodeList nl1, nl2, nl3;
+		list = new ArrayList<HashMap<String, String>>();
+		nl1 = doc.getElementsByTagName("step");
+		Log.d("squeakee","nodelength=>"+ nl1.getLength());
+		if (nl1.getLength() > 0) {
+			for (int i = 0; i < nl1.getLength(); i++) {
+				HashMap<String, String> map = new HashMap<String, String>();
+				Node node1 = nl1.item(i);
+				nl2 = node1.getChildNodes();
+				Node distancenode = nl2.item(getNodeIndex(nl2, "distance"));
+				nl3 = distancenode.getChildNodes();
+				Node latNode = nl3.item(getNodeIndex(nl3, "text"));
+				map.put("dis", latNode.getTextContent());
+				Node distancenode1 = nl2.item(getNodeIndex(nl2,"html_instructions"));
+				map.put("html_instruction", distancenode1.getTextContent());
+				list.add(map);
+			}
+			
+		}
+		return list;
 
+	}
 	public int getDurationValue(Document doc) {
 		NodeList nl1 = doc.getElementsByTagName("duration");
 		Node node1 = nl1.item(0);
