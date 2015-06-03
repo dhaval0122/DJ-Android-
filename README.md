@@ -1,6 +1,17 @@
 DJ-Android-
 ===========
-AndroidGoogleMapV2
+#2 : Android Design support Library Sample
+
+![design](https://github.com/dhaval0122/DJ-Android-/blob/master/GM_20150603_183045.gif)
+
+
+
+
+#1 : AndroidGoogleMapV2
+
+![alt tag](http://4.bp.blogspot.com/-M-WQt1fkCvI/UXERoTECHzI/AAAAAAAABTY/lTZzywBjutc/s1600/map4_1.png)
+
+![alt tag](http://1.bp.blogspot.com/--iNhka-FoWQ/UXERvbYVV0I/AAAAAAAABTc/wCJdRc3sYtQ/s1600/map4_2.png)
 
 This is sample code for Android Google Map V2 get Direction between two Location.
 
@@ -21,10 +32,4 @@ http://dj-android.blogspot.in/2013/02/android-google-map-v2-part-3-add.html
 
 
 
-Dhaval Sodha Parmar
 
-http://dj-android.blogspot.in/
-
-https://plus.google.com/114199294127261227516/about
-
-http://stackoverflow.com/users/1168654/dhaval-sodha-parmar
