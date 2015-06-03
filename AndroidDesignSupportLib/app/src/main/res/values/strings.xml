@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">DJ-Android</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_item_1">Settings</string>
+    <string name="navigation_item_2">Settings</string>
+
+    <string name="navigation_sub_item_1">sub item 1</string>
+    <string name="navigation_sub_item_2">sub item 2</string>
+
+    <string name="navigation_subheader">sub header</string>
+    <string name="intro"><![CDATA[ <b>Android Design Support Library</b><br><br>
+Android 5.0 Lollipop was one of the most significant Android releases ever, in no small part due to the introduction of material design, a new design language that refreshed the entire Android experience. Our detailed spec is a great place to start to adopt material design, but we understand that it can be a challenge for developers, particularly ones concerned with backward compatibility. With a little help from the new Android Design Support Library, we’re bringing a number of important material design components to all developers and to all Android 2.1 or higher devices. You’ll find a navigation drawer view, floating labels for editing text, a floating action button, snackbar, tabs, and a motion and scroll framework to tie them together.]]></string>
+
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="accent">#FFFFFF</color>
+
+
+
+    <string-array name="android_version">
+        <item>Android alpha</item>
+        <item>Android beta</item>
+        <item>1.5 Cupcake (API level 3)</item>
+        <item>1.6 Donut (API level 4)</item>
+        <item>2.0 Eclair (API level 5)</item>
+        <item>2.0.1 Eclair (API level 6)</item>
+        <item>2.1 Eclair (API level 7)</item>
+        <item>2.2–2.2.3 Froyo (API level 8)</item>
+        <item>2.3–2.3.2 Gingerbread (API level 9)</item>
+        <item>2.3.3–2.3.7 Gingerbread (API level 10)</item>
+        <item>3.0 Honeycomb (API level 11)</item>
+        <item>3.1 Honeycomb (API level 12)</item>
+        <item>3.2 Honeycomb (API level 13)</item>
+        <item>4.0–4.0.2 Ice Cream Sandwich (API level 14)</item>
+        <item>4.0.3–4.0.4 Ice Cream Sandwich (API level 15)</item>
+        <item>4.1 Jelly Bean (API level 16)</item>
+        <item>4.2 Jelly Bean (API level 17)</item>
+        <item>Android 4.3 Jelly Bean (API level 18)</item>
+        <item>Android 4.4 KitKat (API level 19)</item>
+        <item>Android 4.4 KitKat with wearable extensions (API level 20)</item>
+        <item>Android 5.0–5.0.2 Lollipop (API level 21)</item>
+        <item>Android 5.1 Lollipop (API level 22)</item>
+    </string-array>
+
+    <string name="title_section1">Floting Action</string>
+    <string name="title_section2">Tabs</string>
+    <string name="title_section3">DJ-Android</string>
+    <string name="title_section4">About</string>
+    <string name="title_section5">Social</string>
+    <string name="title_section6">Card and Recycle</string>
+
+    <color name="session_photo_scrim">#6000</color>
+    <color name="body_text_2_inverse">#8affffff</color>
+    <color name="body_text_1_inverse">#deffffff</color>
+    <color name="theme_accent_1_light">#8ad4fa</color>
+    <color name="colorAccent">#607d8b</color>
+    <color name="colorRed">#ff0000</color>
+</resources>

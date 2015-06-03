@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dip"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/chosen_account_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profile_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/my_pic"
+            android:tint="@color/session_photo_scrim" />
+
+        <RelativeLayout
+            android:id="@+id/chosen_account_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
+
+            <djandroid.com.androiddesignsample.BezelImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/navdrawer_profile_image_size"
+                android:layout_height="@dimen/navdrawer_profile_image_size"
+                android:layout_marginTop="10dip"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/my_profile"
+                app:maskDrawable="@drawable/circle_mask" />
+
+
+            <ImageView
+                android:id="@+id/expand_account_box_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="16dp"
+                android:paddingBottom="16dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_drawer_accounts_expand"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/profile_email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/profile_image"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@id/expand_account_box_indicator"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="16dp"
+                android:singleLine="true"
+                android:text="dhaval0122@gmail.com"
+                android:textColor="@color/body_text_2_inverse"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:id="@+id/profile_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/profile_email_text"
+                android:layout_alignLeft="@id/profile_image"
+                android:layout_toLeftOf="@id/expand_account_box_indicator"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Dhaval Sodha Parmar"
+                android:textColor="@color/body_text_1_inverse"
+                android:textSize="@dimen/text_size_large" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

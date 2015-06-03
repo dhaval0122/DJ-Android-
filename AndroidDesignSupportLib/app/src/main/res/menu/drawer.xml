@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:checked="true"
+            android:icon="@drawable/ic_drawer_map"
+            android:title="@string/title_section1">
+
+        </item>
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/ic_drawer_people_met"
+            android:title="@string/title_section2" />
+        <item
+            android:id="@+id/navigation_item_3"
+            android:icon="@drawable/ic_drawer_experts"
+            android:title="@string/title_section3" />
+        <item
+            android:id="@+id/navigation_item_4"
+            android:icon="@drawable/ic_drawer_explore"
+            android:title="@string/title_section4" />
+        <item
+            android:id="@+id/navigation_item_5"
+            android:icon="@drawable/ic_drawer_social"
+            android:title="@string/title_section5" />
+        <item
+            android:id="@+id/navigation_item_6"
+            android:icon="@drawable/ic_drawer_social"
+            android:title="@string/title_section6" />
+
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="@string/navigation_subheader">
+            <menu>
+                <item
+                    android:id="@+id/navigation_sub_item_1"
+                    android:title="@string/navigation_sub_item_1" />
+                <item
+                    android:id="@+id/navigation_sub_item_2"
+                    android:title="@string/navigation_sub_item_2" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,24 @@
+<resources>
+
+
+    <style name="AppTheme" parent="AppTheme.base">
+    </style>
+
+    <style name="AppTheme1" parent="AppTheme.base">
+    </style>
+
+    <style name="AppTheme.base" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+        <attr name="desaturateOnPress" format="boolean" />
+    </declare-styleable>
+
+</resources>
