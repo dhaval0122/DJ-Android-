@@ -20,7 +20,6 @@ Android 5.0 Lollipop was one of the most significant Android releases ever, in n
     <color name="accent">#FFFFFF</color>
 
 
-
     <string-array name="android_version">
         <item>Android alpha</item>
         <item>Android beta</item>
@@ -49,8 +48,8 @@ Android 5.0 Lollipop was one of the most significant Android releases ever, in n
     <string name="title_section1">Floting Action</string>
     <string name="title_section2">Tabs</string>
     <string name="title_section3">DJ-Android</string>
-    <string name="title_section4">About</string>
-    <string name="title_section5">Social</string>
+    <string name="title_section4">Day/Night Theme</string>
+    <string name="title_section5">Bottom Sheet</string>
     <string name="title_section6">Card and Recycle</string>
 
     <color name="session_photo_scrim">#6000</color>
@@ -59,4 +58,10 @@ Android 5.0 Lollipop was one of the most significant Android releases ever, in n
     <color name="theme_accent_1_light">#8ad4fa</color>
     <color name="colorAccent">#607d8b</color>
     <color name="colorRed">#ff0000</color>
+
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
 </resources>
