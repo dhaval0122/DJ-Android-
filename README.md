@@ -8,18 +8,15 @@ Note:  used compileSdkVersion '23' for Android M but you can change it to build 
 
 Edited: 03-03-16
 
-update to design support library 23.2.0(i have used android studion 2.0beta-6 you can change it to gradle 1.5.0 and studio 1.5.1)
+update to design support library 23.2.0(i have used android studio 2.0beta-6 you can change it to gradle 1.5.0 and studio 1.5.1)
 
 1. Added Bottom Sheet Sample
 2. Added Day/Night theme Sample
 
-don't forget to add
+don't forget to add in build.gradle file
 
- compile 'com.android.support:appcompat-v7:23.2.0'
- 
  compile 'com.android.support:design:23.2.0'
- 
- compile 'com.android.support:support-v4:23.2.0'
+ compile 'com.android.support:cardview-v7:23.2.0'
 
 
 #1 : AndroidGoogleMapV2
